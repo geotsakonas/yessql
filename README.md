@@ -1,7 +1,7 @@
 YesSql
 =============
 
-A .NET document database interface for relational databases, because in SQL we (still) trust 
+A .NET document database interface for relational databases, because in SQL we (still) trust .
 
 [![Build](https://github.com/sebastienros/yessql/actions/workflows/build.yml/badge.svg)](https://github.com/sebastienros/yessql/actions/workflows/build.yml)
 [![NuGet](https://img.shields.io/nuget/v/YesSql.svg)](https://www.nuget.org/packages/YesSql)
