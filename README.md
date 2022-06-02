@@ -1,10 +1,7 @@
 YesSql
 =============
 
-A .NET document database interface for relational databases, because in SQL we (still) trus!
-
-[![Build](https://github.com/sebastienros/yessql/actions/workflows/build.yml/badge.svg)](https://github.com/sebastienros/yessql/actions/workflows/build.yml)
-[![NuGet](https://img.shields.io/nuget/v/YesSql.svg)](https://www.nuget.org/packages/YesSql)
+A .NET document database interface for relational databwww.nuget.org/packages/YesSql)
 [![MyGet](https://img.shields.io/myget/yessql/vpre/yessql.svg?label=MyGet)](https://www.myget.org/feed/yessql/package/nuget/yessql)
 
 How does it work ?
