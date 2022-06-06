@@ -15,12 +15,7 @@ namespace YesSql
         {
             IdentifierAccessorFactory = new PropertyAccessorFactory("Id");
             VersionAccessorFactory = new PropertyAccessorFactory("Version");
-            ContentSerializer = Serializer { get; set; }
-        public string TablePrefix { get; set; }
-        public int CommandsPageSize { get; set; }
-        public bool QueryGatingEnabled { get; set; }
-        public IIdGenerator IdGenerator { get; set; }
-        public ILogger Logger { get; set; }
+            ContentSeriali{ get; set; }
         public HashSet<Type> ConcurrentTypes { get; }
         public ITableNameConvention TableNameConvention { get; set; }
         public ICommandInterpreter CommandInterpreter { get; set; }
