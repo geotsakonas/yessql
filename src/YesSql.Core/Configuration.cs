@@ -15,22 +15,7 @@ namespace YesSql
         {
             IdentifierAccessorFactory = new PropertyAccessorFactory("Id");
             VersionAccessorFactory = new PropertyAccessorFactory("Version");
-            ContentSerializer = new JsonContentSerializer();
-            IdGenerator = new DefaultIdGenerator();
-            IsolationLevel = IsolationLevel.ReadCommitted;
-            TablePrefix = "";
-            CommandsPageSize = 500;
-            QueryGatingEnabled = true;
-            Logger = NullLogger.Instance;
-            ConcurrentTypes = new HashSet<Type>();
-            TableNameConvention = new DefaultTableNameConvention();
-        }
-
-        public IAccessorFactory IdentifierAccessorFactory { get; set; }
-        public IAccessorFactory VersionAccessorFactory { get; set; }
-        public IsolationLevel IsolationLevel { get; set; }
-        public IConnectionFactory ConnectionFactory { get; set; }
-        public IContentSerializer ContentSerializer { get; set; }
+            ContentSerializer = Serializer { get; set; }
         public string TablePrefix { get; set; }
         public int CommandsPageSize { get; set; }
         public bool QueryGatingEnabled { get; set; }
