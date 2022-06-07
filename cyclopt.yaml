@@ -2,3 +2,10 @@ global:
     violations:
         exclude: 
             - Unused Member Non-Private Accessibility
+modules:
+    - path: "/src/YesSql.Core"
+      languages:
+        - CSharp
+      violations:
+        exclude:
+          - Redundant Using Directive
