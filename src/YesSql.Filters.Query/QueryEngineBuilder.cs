@@ -17,7 +17,7 @@ namespace YesSql.Filters.Query
         {
             _termBuilders[builder.Name] = builder;
 
-            return this;
+            return this
         }
 
         public IQueryParser<T> Build()
