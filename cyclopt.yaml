@@ -1,0 +1,4 @@
+global:
+    violations:
+        exclude: 
+            - Unused Member Non-Private Accessibility
