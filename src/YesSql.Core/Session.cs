@@ -8,14 +8,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using YesSql.Commands;
-using YesSql.Data;
-using YesSql.Indexes;
-using YesSql.Services;
-
-namespace YesSql
-{
-    public class Session : ISession
-    {
+using YesSql.Data
         private DbConnection _connection;
         private DbTransaction _transaction;
 
