@@ -1,15 +1,15 @@
-global:
-    metrics:
-        exclude:
-            - /src/YesSql.Core/*
-            - /src/YesSql.Filters.Query/QueryUnaryEngineBuilder.cs
-    violations:
-        exclude: 
-            - Unused Member Non-Private Accessibility
-modules:
-    - path: "/src/YesSql.Core"
-      languages:
-        - CSharp
-      violations:
-        exclude:
-          - Redundant Using Directive
+global: 
+  metrics: 
+    exclude: 
+      - /src/YesSql.Core/*
+      - /src/YesSql.Filters.Query/QueryUnaryEngineBuilder.cs
+  violations: 
+    exclude: 
+      - "Unused Member Non-Private Accessibility"
+modules: 
+  - languages: 
+      - CSharp
+    path: /src/YesSql.Core
+    violations: 
+      exclude: 
+        - "Redundant Using Directive"
