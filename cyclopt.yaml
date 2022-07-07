@@ -1,8 +1,7 @@
 global: 
   metrics: 
     exclude: 
-      - /src/YesSql.Core/*
-      - /src/YesSql.Filters.Query/QueryUnaryEngineBuilder.cs
+      - /src/*
   violations: 
     exclude: 
       - "Unused Member Non-Private Accessibility"
