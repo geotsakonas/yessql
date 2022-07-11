@@ -6,7 +6,8 @@ global:
     exclude: 
       - "Unused Member Non-Private Accessibility"
 modules: 
-  - languages: 
+  - 
+    languages: 
       - CSharp
     path: /src/YesSql.Core
     violations: 
