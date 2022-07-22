@@ -4,7 +4,7 @@ YesSql
 A .NET document database interface for relational databwww.nuget.org/packages/YesSql)
 [![MyGet](https://img.shields.io/myget/yessql/vpre/yessql.svg?label=MyGet)](https://www.myget.org/feed/yessql/package/nuget/yessql)
 
-How does it work ?
+How does it work?
 -------------------
 
 YesSql is a .NET Core document database interface over relational databases which allows you to define documents and indexes using plain old CLR objects. The main difference
